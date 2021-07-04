@@ -1,0 +1,43 @@
+.img-container {
+  text-align: center;
+}
+
+.img-2 {
+  text-align: center;
+}
+
+.txt{
+  text-align: center;
+}
+
+.img-3{
+  text-align: center;
+  
+}
+
+.img4{
+  text-align: center;
+  
+}
+.img5{
+  text-align: center;
+  
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
