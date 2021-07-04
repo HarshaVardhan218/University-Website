@@ -1,0 +1,75 @@
+
+  .c2{
+    text-align: center;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 2px solid #b80c0c;
+  background-color: #ac140f;
+
+  
+}
+
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(214, 30, 16);
+}
+/* Style the tab content */
+.tabcontent {
+  display:none;
+  padding: 6px 12px;
+  border: 1px solid rgb(73, 16, 16);
+  border-top: none;
+}
+
+a{display: inline;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px ;
+  text-decoration: none;
+  color: rgb(1, 13, 24);
+  background-color: whitesmoke;
+}
